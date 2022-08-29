@@ -1,6 +1,6 @@
 # simracingchamps
 
-![alt text](https://github.com/anibol/simracingchamps/blob/main/IRT/Content/img/web/SimRacingChamps2.png?raw=true)
+![alt text](https://github.com/anibol/simracingchamps/blob/master/IRT/Content/img/web/SimRacingChamps2.png?raw=true)
 
 A web application for managing sim racing championships developed in ASP.NET + SQL Server
 
