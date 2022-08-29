@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bGuardarResource1.Text" xml:space="preserve">
+    <value>Save Race</value>
+  </data>
+  <data name="bGuardarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAyudasResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCautionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCircuitoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbFastRepairsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPeriodoCarreraResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPeriodoCualiResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPeriodoPracticasResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbTipoSalidaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chCarreraDinamicoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chCarreraDinamicoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chCarreraLLuviaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chCarreraLLuviaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chCualiDinamicoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chCualiDinamicoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chCualiLluviaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chCualiLluviaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chListCochesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chPracticasDinamicoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chPracticasDinamicoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chPracticasLLuviaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chPracticasLLuviaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmsg2Resource1.Text" xml:space="preserve">
+    <value>
+          ¡Warning!
+        </value>
+  </data>
+  <data name="lblmsgResource1.Text" xml:space="preserve">
+    <value>
+            &lt;div class="callout callout-success lead"&gt;
+            &lt;h4&gt;Ok!&lt;/h4&gt;
+            &lt;p&gt;Data saved!&lt;/p&gt;
+        &lt;/div&gt;
+        </value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Morning</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Por la mañana</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>Manuales</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>Automaticos</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>Deactivated</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>Desactivadas</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>Automatic clutch</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>Embrague automático</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>Activadas</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>Morning</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>Temprano (Morning)</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>Afternoon</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>Día/Tarde (Afternoon)</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>Noche (Night)</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Afternoon</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Por la tarde</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Nigh</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Por la noche</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Morning</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Por la mañana</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Afternoon</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>Por la tarde</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>Por la noche</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Grid start</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>En parado</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Launched start</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>Lanzada</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Literal10Resource1.Text" xml:space="preserve">
+    <value>
+                         &lt;ul&gt;
+                            &lt;li&gt;&lt;b&gt;Datos generales:&lt;/b&gt; Selecciona el circuito, indica la fecha de celebración de la carrea, información extra y si va a tener emsisión por YouTube/Twitch/Etc o necesita un MOD podrás indicar las URLs correspondientes&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;Prácticas:&lt;/b&gt;Indica los datos de la práctica, duración, clima, etc&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;Clasificación:&lt;/b&gt;Indica los datos de la cuali, duración, clima, etc&lt;/li&gt;
+                            &lt;li&gt;&lt;b&gt;Carrera:&lt;/b&gt;Indica los datos de la carrea, duración, clima, etc, y el &lt;u&gt;listado de coches que deberán seleccionar los pilotos&lt;/u&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;p&gt;Para &lt;u&gt;editar una carrera&lt;/u&gt; pulsa el botón &lt;label class="btn btn-xs btn-primary"&gt;Editar&lt;/label&gt; de la lista de carreras previamente añadidas &lt;/p&gt;
+                        &lt;p&gt;Para &lt;u&gt;eliminar una carrera&lt;/u&gt; pulsa el botón &lt;label class="btn btn-xs btn-danger"&gt;Borrar&lt;/label&gt; de la lista de carreras previamente añadidas &lt;/p&gt;</value>
+  </data>
+  <data name="Literal11Resource1.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Literal12Resource1.Text" xml:space="preserve">
+    <value>Race list</value>
+  </data>
+  <data name="Literal13Resource1.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Literal14Resource1.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Literal15Resource1.Text" xml:space="preserve">
+    <value>Circuit</value>
+  </data>
+  <data name="Literal16Resource1.Text" xml:space="preserve">
+    <value>Cars</value>
+  </data>
+  <data name="Literal16Resource2.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Literal16Resource3.Text" xml:space="preserve">
+    <value>Add/Edit race</value>
+  </data>
+  <data name="Literal17Resource1.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Literal18Resource1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Literal19Resource1.Text" xml:space="preserve">
+    <value>Race general info</value>
+  </data>
+  <data name="Literal1Resource1.Text" xml:space="preserve">
+    <value>Championchip's race management</value>
+  </data>
+  <data name="Literal20Resource1.Text" xml:space="preserve">
+    <value>Circuit</value>
+  </data>
+  <data name="Literal21Resource1.Text" xml:space="preserve">
+    <value>Date of the race</value>
+  </data>
+  <data name="Literal22Resource1.Text" xml:space="preserve">
+    <value>Extra information</value>
+  </data>
+  <data name="Literal23Resource1.Text" xml:space="preserve">
+    <value>Mod download URL</value>
+  </data>
+  <data name="Literal24Resource1.Text" xml:space="preserve">
+    <value>TV Stream URL</value>
+  </data>
+  <data name="Literal25Resource1.Text" xml:space="preserve">
+    <value>Sessions and duration</value>
+  </data>
+  <data name="Literal26Resource1.Text" xml:space="preserve">
+    <value>Starts at</value>
+  </data>
+  <data name="Literal27Resource1.Text" xml:space="preserve">
+    <value>Practices (minutes)</value>
+  </data>
+  <data name="Literal28Resource1.Text" xml:space="preserve">
+    <value>Period of day</value>
+  </data>
+  <data name="Literal29Resource1.Text" xml:space="preserve">
+    <value>Dynamic weather</value>
+  </data>
+  <data name="Literal2Resource1.Text" xml:space="preserve">
+    <value>Add the races of the championchip</value>
+  </data>
+  <data name="Literal30Resource1.Text" xml:space="preserve">
+    <value>Rain</value>
+  </data>
+  <data name="Literal31Resource1.Text" xml:space="preserve">
+    <value>Qualify</value>
+  </data>
+  <data name="Literal32Resource1.Text" xml:space="preserve">
+    <value>Qulifay starts at</value>
+  </data>
+  <data name="Literal33Resource1.Text" xml:space="preserve">
+    <value>Classification (minutes)</value>
+  </data>
+  <data name="Literal34Resource1.Text" xml:space="preserve">
+    <value>Laps</value>
+  </data>
+  <data name="Literal35Resource1.Text" xml:space="preserve">
+    <value>Period of day</value>
+  </data>
+  <data name="Literal36Resource1.Text" xml:space="preserve">
+    <value>Dynamic weather</value>
+  </data>
+  <data name="Literal37Resource1.Text" xml:space="preserve">
+    <value>Rain</value>
+  </data>
+  <data name="Literal38Resource1.Text" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="Literal39Resource1.Text" xml:space="preserve">
+    <value>Race starts at</value>
+  </data>
+  <data name="Literal3Resource1.Text" xml:space="preserve">
+    <value>New Race</value>
+  </data>
+  <data name="Literal40Resource1.Text" xml:space="preserve">
+    <value>Race (minutes)</value>
+  </data>
+  <data name="Literal41Resource1.Text" xml:space="preserve">
+    <value>Laps</value>
+  </data>
+  <data name="Literal42Resource1.Text" xml:space="preserve">
+    <value>% Gas</value>
+  </data>
+  <data name="Literal43Resource1.Text" xml:space="preserve">
+    <value>Type of start</value>
+  </data>
+  <data name="Literal44Resource1.Text" xml:space="preserve">
+    <value>Fast Repair</value>
+  </data>
+  <data name="Literal45Resource1.Text" xml:space="preserve">
+    <value>Cautions</value>
+  </data>
+  <data name="Literal46Resource1.Text" xml:space="preserve">
+    <value>Incidents</value>
+  </data>
+  <data name="Literal47Resource1.Text" xml:space="preserve">
+    <value>Helps</value>
+  </data>
+  <data name="Literal48Resource1.Text" xml:space="preserve">
+    <value>Track status</value>
+  </data>
+  <data name="Literal49Resource1.Text" xml:space="preserve">
+    <value>Period of day</value>
+  </data>
+  <data name="Literal4Resource1.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Literal50Resource1.Text" xml:space="preserve">
+    <value>Dynamic weather</value>
+  </data>
+  <data name="Literal51Resource1.Text" xml:space="preserve">
+    <value>Rain</value>
+  </data>
+  <data name="Literal52Resource1.Text" xml:space="preserve">
+    <value>Select car:</value>
+  </data>
+  <data name="Literal5Resource1.Text" xml:space="preserve">
+    <value>Races</value>
+  </data>
+  <data name="Literal6Resource1.Text" xml:space="preserve">
+    <value>This is the page where you can add and edit the races of your championship</value>
+  </data>
+  <data name="Literal7Resource1.Text" xml:space="preserve">
+    <value>To &lt;u&gt;add a race&lt;/u&gt; click the button</value>
+  </data>
+  <data name="Literal8Resource1.Text" xml:space="preserve">
+    <value>New Race</value>
+  </data>
+  <data name="Literal9Resource1.Text" xml:space="preserve">
+    <value>that you have at the top of the page. A new form will appear with the following sections:</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>SimRacingChamps</value>
+  </data>
+  <data name="panCircuitosResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panCircuitosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator10Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator11Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator11Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator6Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator7Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator8Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator9Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDepositoResource1.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="tDepositoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDuracionCarreraResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDuracionCarreraResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDuracionCualiResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDuracionCualiResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDuracionPracticasResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDuracionPracticasResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tEstadoPistaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tEstadoPistaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tFechaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tFechaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tHoraCarreraResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tHoraCarreraResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tHoraCualiResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tHoraCualiResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tHoraPracticasResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tHoraPracticasResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tInfoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tModResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tModResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tNumIncidentesResource1.Text" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tNumIncidentesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tTVResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tTVResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tVueltasCarreraResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tVueltasCarreraResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tVueltasCualiResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tVueltasCualiResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Literal113Resource1.Text" xml:space="preserve">
+    <value>Formation Lap</value>
+  </data>
+  <data name="Literal29Resource2.Text" xml:space="preserve">
+    <value>rFactor Version</value>
+  </data>
+  <data name="Literal95Resource1.Text" xml:space="preserve">
+    <value>Fuel use</value>
+  </data>
+  <data name="Literal114Resource1.Text" xml:space="preserve">
+    <value>Dynamic track line</value>
+  </data>
+  <data name="Literal58Resource1.Text" xml:space="preserve">
+    <value>Type of date</value>
+  </data>
+  <data name="Literal99Resource1.Text" xml:space="preserve">
+    <value>Training type</value>
+  </data>
+  <data name="Literal79Resource1.Text" xml:space="preserve">
+    <value>Air Temperature</value>
+  </data>
+  <data name="Literal92Resource1.Text" xml:space="preserve">
+    <value>Track surface</value>
+  </data>
+  <data name="ListItemResource30.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource26.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource32.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource34.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource36.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource28.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource24.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Literal109Resource1.Text" xml:space="preserve">
+    <value>Severity when skipping curves</value>
+  </data>
+  <data name="Literal65Resource1.Text" xml:space="preserve">
+    <value>Sessions and duration</value>
+  </data>
+  <data name="Literal30Resource2.Text" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="Literal54Resource1.Text" xml:space="preserve">
+    <value>Car selecction</value>
+  </data>
+  <data name="lblmsg2bResource1.Text" xml:space="preserve">
+    <value>Error saving data</value>
+  </data>
+  <data name="Literal62Resource1.Text" xml:space="preserve">
+    <value>Launched start</value>
+  </data>
+  <data name="Literal100Resource1.Text" xml:space="preserve">
+    <value>Classification round</value>
+  </data>
+  <data name="Literal111Resource1.Text" xml:space="preserve">
+    <value>Help Restrictions</value>
+  </data>
+  <data name="Literal104Resource1.Text" xml:space="preserve">
+    <value>Car Perfomance</value>
+  </data>
+  <data name="Literal34Resource2.Text" xml:space="preserve">
+    <value>Real Road</value>
+  </data>
+  <data name="Literal71Resource1.Text" xml:space="preserve">
+    <value>Time Progression</value>
+  </data>
+  <data name="Literal57Resource1.Text" xml:space="preserve">
+    <value>Weather Progression</value>
+  </data>
+  <data name="Literal75Resource1.Text" xml:space="preserve">
+    <value>Allow traction control</value>
+  </data>
+  <data name="Literal74Resource1.Text" xml:space="preserve">
+    <value>Allow stability control</value>
+  </data>
+  <data name="Literal73Resource1.Text" xml:space="preserve">
+    <value>Allow ABS</value>
+  </data>
+  <data name="Literal87Resource1.Text" xml:space="preserve">
+    <value>Out of track penalty</value>
+  </data>
+  <data name="Literal61Resource1.Text" xml:space="preserve">
+    <value>Forced Pit Stop</value>
+  </data>
+  <data name="Literal59Resource1.Text" xml:space="preserve">
+    <value>Session Options</value>
+  </data>
+  <data name="Literal112Resource1.Text" xml:space="preserve">
+    <value>Race Options</value>
+  </data>
+  <data name="Literal106Resource1.Text" xml:space="preserve">
+    <value>Parc Fermé</value>
+  </data>
+  <data name="lblavisoResource1.Text" xml:space="preserve">
+    <value>You can not add races or edit the circuit of the existing ones as well as the list of cars since there are registered drivers</value>
+  </data>
+  <data name="ListItemResource29.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource23.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource25.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource27.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource33.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource35.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource37.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource31.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Literal39Resource2.Text" xml:space="preserve">
+    <value>Climatology</value>
+  </data>
+  <data name="Literal56Resource1.Text" xml:space="preserve">
+    <value>Climatology</value>
+  </data>
+  <data name="Literal88Resource1.Text" xml:space="preserve">
+    <value>Classification limits</value>
+  </data>
+  <data name="lblcochesResource1.Text" xml:space="preserve">
+    <value>The list of cars can not be modified since there are registered drivers</value>
+  </data>
+  <data name="Literal77Resource1.Text" xml:space="preserve">
+    <value>Race Hour (Sim)</value>
+  </data>
+  <data name="Literal117Resource1.Text" xml:space="preserve">
+    <value>Anti-lock brakes</value>
+  </data>
+  <data name="Literal63Resource1.Text" xml:space="preserve">
+    <value>Force inside view</value>
+  </data>
+  <data name="Literal64Resource1.Text" xml:space="preserve">
+    <value>Force manual shift</value>
+  </data>
+  <data name="Literal72Resource1.Text" xml:space="preserve">
+    <value>Force Realistic Help</value>
+  </data>
+  <data name="Literal91Resource1.Text" xml:space="preserve">
+    <value>Mechanical failures</value>
+  </data>
+  <data name="Literal55Resource1.Text" xml:space="preserve">
+    <value>Weather Spaces</value>
+  </data>
+  <data name="Literal66Resource1.Text" xml:space="preserve">
+    <value>Practice length</value>
+  </data>
+  <data name="Literal67Resource1.Text" xml:space="preserve">
+    <value>Classification length</value>
+  </data>
+  <data name="Literal68Resource1.Text" xml:space="preserve">
+    <value>Warm up/Delay length</value>
+  </data>
+  <data name="Literal101Resource1.Text" xml:space="preserve">
+    <value>Race length</value>
+  </data>
+  <data name="Literal94Resource1.Text" xml:space="preserve">
+    <value>Tyre wear</value>
+  </data>
+  <data name="Literal86Resource1.Text" xml:space="preserve">
+    <value>Tire Wear</value>
+  </data>
+  <data name="Literal37Resource2.Text" xml:space="preserve">
+    <value>Tyre Wear</value>
+  </data>
+  <data name="Literal105Resource1.Text" xml:space="preserve">
+    <value>Car Damage</value>
+  </data>
+  <data name="Literal93Resource1.Text" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="Literal38Resource2.Text" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="Literal90Resource1.Text" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="Literal81Resource1.Text" xml:space="preserve">
+    <value>Traction Control</value>
+  </data>
+  <data name="Literal83Resource1.Text" xml:space="preserve">
+    <value>Stability Control</value>
+  </data>
+  <data name="Literal118Resource1.Text" xml:space="preserve">
+    <value>Traction Control</value>
+  </data>
+  <data name="Literal35Resource2.Text" xml:space="preserve">
+    <value>Fuel use</value>
+  </data>
+  <data name="Literal85Resource1.Text" xml:space="preserve">
+    <value>Fuel use</value>
+  </data>
+  <data name="Literal76Resource1.Text" xml:space="preserve">
+    <value>Room Configuration</value>
+  </data>
+  <data name="Literal28Resource2.Text" xml:space="preserve">
+    <value>Room Configuration</value>
+  </data>
+  <data name="Literal52Resource2.Text" xml:space="preserve">
+    <value>Room Configuration</value>
+  </data>
+  <data name="Literal89Resource1.Text" xml:space="preserve">
+    <value>Default Strength Config</value>
+  </data>
+  <data name="Literal32Resource2.Text" xml:space="preserve">
+    <value>Track status</value>
+  </data>
+  <data name="Literal107Resource1.Text" xml:space="preserve">
+    <value>Colisions</value>
+  </data>
+  <data name="Literal98Resource1.Text" xml:space="preserve">
+    <value>Transparent cars</value>
+  </data>
+  <data name="Literal108Resource1.Text" xml:space="preserve">
+    <value>Security Car</value>
+  </data>
+  <data name="Literal103Resource1.Text" xml:space="preserve">
+    <value>Session start weather</value>
+  </data>
+  <data name="Literal78Resource1.Text" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="Literal102Resource1.Text" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="Literal60Resource1.Text" xml:space="preserve">
+    <value>Car Type</value>
+  </data>
+  <data name="Literal70Resource1.Text" xml:space="preserve">
+    <value>Race Laps</value>
+  </data>
+  <data name="Literal69Resource1.Text" xml:space="preserve">
+    <value>Race Time</value>
+  </data>
+  <data name="Literal84Resource1.Text" xml:space="preserve">
+    <value>Tyre heaters</value>
+  </data>
+  <data name="Literal120Resource1.Text" xml:space="preserve">
+    <value>Gearbox</value>
+  </data>
+  <data name="Literal97Resource1.Text" xml:space="preserve">
+    <value>Flags and penalties</value>
+  </data>
+  <data name="Literal80Resource1.Text" xml:space="preserve">
+    <value>AutoClutch</value>
+  </data>
+  <data name="Literal119Resource1.Text" xml:space="preserve">
+    <value>Box help</value>
+  </data>
+  <data name="Literal116Resource1.Text" xml:space="preserve">
+    <value>Break help</value>
+  </data>
+  <data name="Literal110Resource1.Text" xml:space="preserve">
+    <value>Race Start</value>
+  </data>
+  <data name="Literal96Resource1.Text" xml:space="preserve">
+    <value>Automatic Start</value>
+  </data>
+  <data name="lnkNuevoResource1.Text" xml:space="preserve">
+    <value>New race</value>
+  </data>
+  <data name="nominutos" xml:space="preserve">
+    <value>Do not enter the words 'minutes' or 'laps', they will be added automatically</value>
+  </data>
+  <data name="bCopiar" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="ListItemResource38.Text" xml:space="preserve">
+    <value>Late Afternoon</value>
+  </data>
+  <data name="ListItemResource38.Value" xml:space="preserve">
+    <value>Atardeciendo (Late Afternoon)</value>
+  </data>
+</root>

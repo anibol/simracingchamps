@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bEliminarResource1.Text" xml:space="preserve">
+    <value>Delete championship</value>
+  </data>
+  <data name="bEliminarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bGuardarResource1.Text" xml:space="preserve">
+    <value>Save championship</value>
+  </data>
+  <data name="bGuardarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbColorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPlataformaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSimuladorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbTablaPuntosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbTiposResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chPatrocinadoresResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chSinInsripcionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chSinInsripcionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fUploadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblinscritosResource1.Text" xml:space="preserve">
+    <value>Once there is registered drivers you can't change neither system nor simulator.</value>
+  </data>
+  <data name="lblinscritosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmesgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmesgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Drivers point system</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Puntuan solo los pilotos</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>default.css</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>green.css</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Teams and drivers point system</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Puntuan pilotos y equipos</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Teams point system</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Puntuan solo equipos</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>yellow.css</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>blue.css</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>purple.css</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>red.css</value>
+  </data>
+  <data name="Literal10Resource1.Text" xml:space="preserve">
+    <value>Information of the championship</value>
+  </data>
+  <data name="Literal11Resource1.Text" xml:space="preserve">
+    <value>Classification calculation system</value>
+  </data>
+  <data name="Literal12Resource1.Text" xml:space="preserve">
+    <value>Table of points</value>
+  </data>
+  <data name="Literal13Resource1.Text" xml:space="preserve">
+    <value>Type of setup</value>
+  </data>
+  <data name="Literal14Resource1.Text" xml:space="preserve">
+    <value>Minisite theme color</value>
+  </data>
+  <data name="Literal15Resource1.Text" xml:space="preserve">
+    <value>Registering info</value>
+  </data>
+  <data name="Literal16Resource1.Text" xml:space="preserve">
+    <value>Registering start date</value>
+  </data>
+  <data name="Literal17Resource1.Text" xml:space="preserve">
+    <value>Registering end date</value>
+  </data>
+  <data name="Literal18Resource1.Text" xml:space="preserve">
+    <value>Without registering</value>
+  </data>
+  <data name="Literal19Resource1.Text" xml:space="preserve">
+    <value>Check this option if you want to copy the registerd drivers from other championship (for example a classification championship). You can copy data at the registration form.</value>
+  </data>
+  <data name="Literal1Resource1.Text" xml:space="preserve">
+    <value>Championship management</value>
+  </data>
+  <data name="Literal20Resource1.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Literal21Resource1.Text" xml:space="preserve">
+    <value>Simulator</value>
+  </data>
+  <data name="Literal22Resource1.Text" xml:space="preserve">
+    <value>Max number of drivers</value>
+  </data>
+  <data name="Literal23Resource1.Text" xml:space="preserve">
+    <value>Set to 0 for no drivers limit</value>
+  </data>
+  <data name="Literal24Resource1.Text" xml:space="preserve">
+    <value>Championship banner</value>
+  </data>
+  <data name="Literal25Resource1.Text" xml:space="preserve">
+    <value>Recommend size 1920x450</value>
+  </data>
+  <data name="Literal26Resource1.Text" xml:space="preserve">
+    <value>Select sponsors</value>
+  </data>
+  <data name="Literal27Resource1.Text" xml:space="preserve">
+    <value>You have to add to the general list of sponsor at 'My Sponsors' menu option prior to selection.</value>
+  </data>
+  <data name="Literal28Resource1.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Literal2Resource1.Text" xml:space="preserve">
+    <value>Add / edit championship data</value>
+  </data>
+  <data name="Literal3Resource1.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Literal4Resource1.Text" xml:space="preserve">
+    <value>Championships</value>
+  </data>
+  <data name="Literal5Resource1.Text" xml:space="preserve">
+    <value>&lt;p&gt; This is the screen that indicates the general information of your championship &lt;/p&gt;
+                         &lt;ul&gt;
+                             &lt;li&gt; &lt;b&gt; General information: &lt;/b&gt; Indicates the general information of the championship, the points table to be used for the results, if it will be for pilots / teams or both, the type of setup to be used and the base color of the personalized web template of your championship (use one that marries the banner&lt;/li&gt;
+                             &lt;li&gt; &lt;b&gt; Registration details: &lt;/b&gt; Indicates the start and end dates (will be the ones that automatically display the championship on the public website), platform / simulator&lt;/li&gt;
+                             &lt;li&gt; &lt;b&gt; Sponsors: &lt;/b&gt; Here you select the sponsors that apply to this championship. First you must have registered them in the menu option "My Sponsors" &lt;/li&gt;
+                         &lt;/ ul&gt;
+&lt;p&gt;Points system&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;F1 2017: The current score table of the F1 is applied to the results calculation&lt;/li&gt;
+&lt;li&gt;Tabla 532-1: It applies 5 points to 1º, 3 to 2º, 2 to 3º, 1 to the rest of riders who finish 100% of the race. 0 for indicates that it does not receive points.
+&lt;/ul&gt;</value>
+  </data>
+  <data name="Literal6Resource1.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Literal7Resource1.Text" xml:space="preserve">
+    <value>General data</value>
+  </data>
+  <data name="Literal8Resource1.Text" xml:space="preserve">
+    <value>Championship name</value>
+  </data>
+  <data name="Literal9Resource1.Text" xml:space="preserve">
+    <value>This is the name that will appear in the public portal</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>SimRacingChamps</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator6Resource1.ErrorMessage" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredFieldValidator6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDescripcionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tDescripcionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tEventoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tEventoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tFfinResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tFfinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tFiniResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tFiniResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tNumMaxResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tNumMaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>Viernes</value>
+  </data>
+  <data name="Literal31Resource1.Text" xml:space="preserve">
+    <value>Point tables</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="Literal30Resource1.Text" xml:space="preserve">
+    <value>Race Hour</value>
+  </data>
+  <data name="Literal18Resource2.Text" xml:space="preserve">
+    <value>Two-run race</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="Literal29Resource1.Text" xml:space="preserve">
+    <value>Week day:</value>
+  </data>
+  <data name="Literal49Resource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="dorsal.Text" xml:space="preserve">
+    <value>Ask car # on sign up</value>
+  </data>
+  <data name="skin.Text" xml:space="preserve">
+    <value>Ask for skin upload</value>
+  </data>
+</root>

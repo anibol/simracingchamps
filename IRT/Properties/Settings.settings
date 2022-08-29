@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IRT.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServidorCorreo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">x.com</Value>
+    </Setting>
+    <Setting Name="UsuarioCorreo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">usuario</Value>
+    </Setting>
+    <Setting Name="PassCorreo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">pass</Value>
+    </Setting>
+    <Setting Name="DireccionCorreo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">info@simracingchamps.net</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

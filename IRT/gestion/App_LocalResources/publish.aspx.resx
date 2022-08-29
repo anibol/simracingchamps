@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bCancelarPublicacionResource1.Text" xml:space="preserve">
+    <value>Cancelar Publicación</value>
+  </data>
+  <data name="bCancelarPublicacionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bPublicarResource1.Text" xml:space="preserve">
+    <value>Publicar Campeonato</value>
+  </data>
+  <data name="bPublicarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmesgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmesgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Literal10Resource1.Text" xml:space="preserve">
+    <value>Patrocinadores</value>
+  </data>
+  <data name="Literal11Resource1.Text" xml:space="preserve">
+    <value>Carreras</value>
+  </data>
+  <data name="Literal12Resource1.Text" xml:space="preserve">
+    <value>La publicación del campeonato implica que éste aperecerá en SimRacingChamps.net una vez validado por nosotros y la inscripción se abrirá a partir de la fecha de inicio de inscripción estipulada. SimRacingChamps se reserva el derecho a validar el campeonato si encuentra alguna anomalía en el contenido del mismo y se pondrá en contacto con el organizador para resolverla.</value>
+  </data>
+  <data name="Literal13Resource1.Text" xml:space="preserve">
+    <value> &lt;p&gt;Tu campeonato está &lt;span class="label label-xs label-info"&gt;Pendiente de Validar&lt;/span&gt;&lt;/p&gt;
+                            &lt;p&gt;&lt;b&gt;SimRacingChamps.net&lt;/b&gt; verificará que todo está correcto y validará tu campeonato lo antes posible. Recibirás un correo de aviso cuando realicemos la validación. El fin de la validación no es otro que garantizar la calidad de los contenidos que se visualizan en la web. &lt;/p&gt;
+                            &lt;p&gt;Gracias por tu paciencia&lt;/p&gt;</value>
+  </data>
+  <data name="Literal14Resource1.Text" xml:space="preserve">
+    <value>Tu campeonato está &lt;span class="label label-xs label-success"&gt;Publicado&lt;/span&gt;</value>
+  </data>
+  <data name="Literal15Resource1.Text" xml:space="preserve">
+    <value>URl definitiva</value>
+  </data>
+  <data name="Literal16Resource1.Text" xml:space="preserve">
+    <value>Haz clic aqu&amp;iacute</value>
+  </data>
+  <data name="Literal17Resource1.Text" xml:space="preserve">
+    <value>La cancelación de la publicación hará invisible el campeonato en SimRacingChamps.net. Siempre puedes publicar de nuevo</value>
+  </data>
+  <data name="Literal1Resource1.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Literal2Resource1.Text" xml:space="preserve">
+    <value>Estado del evento</value>
+  </data>
+  <data name="Literal3Resource1.Text" xml:space="preserve">
+    <value>         
+                                &lt;p&gt;Tu campeonato está &lt;span class="label label-xs label-primary"&gt;Pendiente de Publicar&lt;/span&gt;&lt;br /&gt;
+                               Una vez hayas introducido toda la información del evento así como de sus carreras debes proceder a publicarlo para que aparezcan en SimRacingChamps.net. &lt;br /&gt;
+                               Mientras puedes usar esta URL temporal para visualizar la web del mismo y verificar que todo está correcto:&lt;/p&gt;</value>
+  </data>
+  <data name="Literal4Resource1.Text" xml:space="preserve">
+    <value>URL Previsualizacion</value>
+  </data>
+  <data name="Literal5Resource1.Text" xml:space="preserve">
+    <value>Verificación de contenidos: Si todo está correcto aparecerá el botón "Publicar" en caso contrario deberás corregir los elementos necesarios para poder publicar tu campeonato</value>
+  </data>
+  <data name="Literal6Resource1.Text" xml:space="preserve">
+    <value>Publicación de Campeonatos</value>
+  </data>
+  <data name="Literal7Resource1.Text" xml:space="preserve">
+    <value>Opción</value>
+  </data>
+  <data name="Literal8Resource1.Text" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Literal9Resource1.Text" xml:space="preserve">
+    <value>Cartel</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>SimRacingChamps</value>
+  </data>
+  <data name="panCancelarPublicaciónResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panCancelarPublicaciónResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panPendientePublicarResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panPendientePublicarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panPendienteValidarResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panPendienteValidarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="carreras" xml:space="preserve">
+    <value>Carreras: Verificado</value>
+  </data>
+  <data name="cartel" xml:space="preserve">
+    <value>Cartel: Verificado</value>
+  </data>
+  <data name="nocarreras" xml:space="preserve">
+    <value>No has añadido ninguna carrera al campeonato</value>
+  </data>
+  <data name="nocartel" xml:space="preserve">
+    <value>No has especificado cartel</value>
+  </data>
+  <data name="nosponsor" xml:space="preserve">
+    <value>No has añadido ninguna patrocinador al campeonato</value>
+  </data>
+  <data name="sponsor" xml:space="preserve">
+    <value>Sponsors: Verificado</value>
+  </data>
+</root>

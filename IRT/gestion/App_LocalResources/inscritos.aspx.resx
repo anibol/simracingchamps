@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bAplicarResource1.Text" xml:space="preserve">
+    <value>Asignar</value>
+  </data>
+  <data name="bAplicarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bCopiarResource1.Text" xml:space="preserve">
+    <value>COPIAR</value>
+  </data>
+  <data name="bCopiarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bEliminarResource1.Text" xml:space="preserve">
+    <value>ELIMINAR</value>
+  </data>
+  <data name="bEliminarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bInscribirResource1.Text" xml:space="preserve">
+    <value>Inscribir</value>
+  </data>
+  <data name="bInscribirResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>SP_EN</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>IDUSUARIO</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>IDEVENTO</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>IDDIVISION</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Fecha Inscripción</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>IDSPLIT</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>AVATAR</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>Piloto</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>División</value>
+  </data>
+  <data name="cbCampeonatosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDivisionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSplitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chInscritosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chSelectorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chSelectorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgDatosResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgDatosResource1.EmptyDataText" xml:space="preserve">
+    <value>No hay datos</value>
+  </data>
+  <data name="dgDatosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEliminarResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEliminarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmensajeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmensajeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmesgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmesgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Literal10Resource1.Text" xml:space="preserve">
+    <value>División</value>
+  </data>
+  <data name="Literal11Resource1.Text" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="Literal12Resource1.Text" xml:space="preserve">
+    <value>Inscripción manual de pilotos</value>
+  </data>
+  <data name="Literal13Resource1.Text" xml:space="preserve">
+    <value>Puedes inscribir a cualquier piloto siempre que esté registrado en la plataforma</value>
+  </data>
+  <data name="Literal14Resource1.Text" xml:space="preserve">
+    <value>Email del piloto</value>
+  </data>
+  <data name="Literal15Resource1.Text" xml:space="preserve">
+    <value>1. Selecciona los pilotos en la rejilla superior&lt;br&gt;2. Elige el coche a asignar a los pilotos seleccionados para cada carrera</value>
+  </data>
+  <data name="Literal16Resource1.Text" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="Literal17Resource1.Text" xml:space="preserve">
+    <value>Carrera</value>
+  </data>
+  <data name="Literal18Resource1.Text" xml:space="preserve">
+    <value>Coche</value>
+  </data>
+  <data name="Literal19Resource1.Text" xml:space="preserve">
+    <value>Copiar inscritos de otro campeonato</value>
+  </data>
+  <data name="Literal1Resource1.Text" xml:space="preserve">
+    <value>Gestión de Inscritos</value>
+  </data>
+  <data name="Literal20Resource1.Text" xml:space="preserve">
+    <value>Puedes copiar los inscritos de otro campeonato que ya se haya celebrado. Esto es útil para cuando creas un campeonato de tipo clasificación con una sola carrera y luego copias los inscritos a este campeonato para realizar la separación por divisiones/grupos</value>
+  </data>
+  <data name="Literal21Resource1.Text" xml:space="preserve">
+    <value>IMPORTANTE</value>
+  </data>
+  <data name="Literal22Resource1.Text" xml:space="preserve">
+    <value>La lista de coches de ambos campeonatos debe ser la misma y ambos campeonatos deben ser de la misma combinación plataforma/simulador</value>
+  </data>
+  <data name="Literal23Resource1.Text" xml:space="preserve">
+    <value>Selecciona el campeonato del que vas a copiar los inscritos</value>
+  </data>
+  <data name="Literal24Resource1.Text" xml:space="preserve">
+    <value>Borrado manual de pilotos</value>
+  </data>
+  <data name="Literal25Resource1.Text" xml:space="preserve">
+    <value>Puedes cancelar la inscripción de los pilotos que hayas seleccionado. ¡¡ATENCIÓN ESTA ACCIÓN NO PUEDE DESHACERSE!!</value>
+  </data>
+  <data name="Literal2Resource1.Text" xml:space="preserve">
+    <value>Aqui puedes gestionar los inscritos. Puedes asignarlos a divisiones y grupos según necesites</value>
+  </data>
+  <data name="Literal3Resource1.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Literal4Resource1.Text" xml:space="preserve">
+    <value>Inscritos</value>
+  </data>
+  <data name="Literal5Resource1.Text" xml:space="preserve">
+    <value>&lt;p&gt;Esta es la pantalla en la que gestiona el listado de pilotos inscritos&lt;/p&gt;
+                        &lt;p&gt;Por defecto todos los pilotos están asignados a la división "Sin Division" y al grupo "Sin grupo". Si no vas a hacer divisiones ni grupos puedes dejarlos tal como están. No necesitarías hacer nada más en esta página a menos que quieras añadir manualmente algún inscrito (debe estar registrado en el portal primero).&lt;br /&gt;&lt;/p&gt;
+                        &lt;p&gt;En caso contrario, para separar a los pilotos por divisiones/grupos usa el el checkbox para seleccionar a los pilotos que quieras y luego en el apartado &lt;b&gt;Asignación de inscritos&lt;/b&gt; selecciona en los desplegables la division y/o grupo y pulsa el botón &lt;label class="btn btn-info btn-xs"&gt;Asignar&lt;/label&gt;. La pantalla se refrescará y verás los pilotos asignados a la división/grupo indicada.&lt;/p&gt;
+                        &lt;p&gt;Estas divisiones te servirán luego para meter los resultados.&lt;/p&gt;
+                        &lt;p&gt;Tienes la opción de añadir pilotos de forma manual y de eliminar los seleccionados de la lista. ¡Cuidado! El borrado no es recuperable&lt;/p&gt;</value>
+  </data>
+  <data name="Literal6Resource1.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="Literal7Resource1.Text" xml:space="preserve">
+    <value>Listado de inscritos</value>
+  </data>
+  <data name="Literal8Resource1.Text" xml:space="preserve">
+    <value>Asignación de inscritos</value>
+  </data>
+  <data name="Literal9Resource1.Text" xml:space="preserve">
+    <value>Divide a los inscritos por divisiones/grupos si así lo necesitas. Marca primero los inscritos y luego selecciona división y/o grupos según necesites y pulsa asignar</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>SimRacing Champs</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="tUsuarioResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tUsuarioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cambiacoches.Text" xml:space="preserve">
+    <value>Reasignar Coches</value>
+  </data>
+  <data name="inscrmanual" xml:space="preserve">
+    <value>Selecciona los coches para cada carrera</value>
+  </data>
+  <data name="cambiocoches.Text" xml:space="preserve">
+    <value>Cambio de coches del piloto</value>
+  </data>
+  <data name="recuerda.Text" xml:space="preserve">
+    <value>&lt;label class="label label-danger"&gt;
+                                    &lt;i class="fa fa-info-circle"&gt;&lt;/i&gt; Recuerda&lt;/label&gt; que si vas a reasignar pilotos y ya tienes resultados guardados &lt;b&gt;deberás borrar los resultados calculados hasta el momento&lt;/b&gt; y volver a introducir la clasificación de cada carrera</value>
+  </data>
+  <data name="equipo.HeaderText" xml:space="preserve">
+    <value>Equipo</value>
+  </data>
+  <data name="dorsal2.HeaderText" xml:space="preserve">
+    <value>Dorsal</value>
+  </data>
+  <data name="dorsal.Text" xml:space="preserve">
+    <value>Dorsal</value>
+  </data>
+</root>

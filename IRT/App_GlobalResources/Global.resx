@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ayuda1" xml:space="preserve">
+    <value>Desactivadas</value>
+  </data>
+  <data name="ayuda2" xml:space="preserve">
+    <value>Embrague automático</value>
+  </data>
+  <data name="ayuda3" xml:space="preserve">
+    <value>Activadas</value>
+  </data>
+  <data name="ayudas" xml:space="preserve">
+    <value>Ayudas</value>
+  </data>
+  <data name="carreras" xml:space="preserve">
+    <value>carreras</value>
+  </data>
+  <data name="cautions1" xml:space="preserve">
+    <value>Manuales</value>
+  </data>
+  <data name="cautions2" xml:space="preserve">
+    <value>Automáticos</value>
+  </data>
+  <data name="clima1" xml:space="preserve">
+    <value>Clima dinámico</value>
+  </data>
+  <data name="clima2" xml:space="preserve">
+    <value>Lluvia</value>
+  </data>
+  <data name="clima3" xml:space="preserve">
+    <value>con lluvia</value>
+  </data>
+  <data name="clima4" xml:space="preserve">
+    <value>Clima</value>
+  </data>
+  <data name="contacto" xml:space="preserve">
+    <value>Gracias, te responderemos lo antes posible</value>
+    <comment>contacto</comment>
+  </data>
+  <data name="default1" xml:space="preserve">
+    <value>Organiza tu campeonato fácilmente</value>
+    <comment>default</comment>
+  </data>
+  <data name="default2" xml:space="preserve">
+    <value>Más info aquí</value>
+  </data>
+  <data name="default3" xml:space="preserve">
+    <value>Comienza el</value>
+  </data>
+  <data name="default4" xml:space="preserve">
+    <value>Inscríbete</value>
+  </data>
+  <data name="descarga1" xml:space="preserve">
+    <value>Descarga Mod</value>
+  </data>
+  <data name="descarga2" xml:space="preserve">
+    <value>Descargar aquí</value>
+  </data>
+  <data name="dia" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="diahora" xml:space="preserve">
+    <value>Dia/Hora</value>
+  </data>
+  <data name="diasemana" xml:space="preserve">
+    <value>Dia de la semana</value>
+  </data>
+  <data name="docs1" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="domingo" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="duracion1" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="duracion2" xml:space="preserve">
+    <value>vueltas</value>
+  </data>
+  <data name="errorcoche" xml:space="preserve">
+    <value>Debes seleccionar al menos un coche</value>
+  </data>
+  <data name="errorfecha" xml:space="preserve">
+    <value>La fecha de la carrera está dentro del plazo de inscripción</value>
+  </data>
+  <data name="estadopista" xml:space="preserve">
+    <value>Estado pista</value>
+  </data>
+  <data name="fastrepairs" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="horacarreras" xml:space="preserve">
+    <value>Hora carreras</value>
+  </data>
+  <data name="incidentes" xml:space="preserve">
+    <value>Incidentes</value>
+  </data>
+  <data name="info1" xml:space="preserve">
+    <value>Ven y disfruta del campeonato</value>
+  </data>
+  <data name="info2" xml:space="preserve">
+    <value>formado por</value>
+  </data>
+  <data name="info3" xml:space="preserve">
+    <value>y que transcurrirá desde el</value>
+  </data>
+  <data name="info4" xml:space="preserve">
+    <value>al</value>
+  </data>
+  <data name="inscr_error" xml:space="preserve">
+    <value>Error al inscribir al piloto</value>
+  </data>
+  <data name="inscr_noexiste" xml:space="preserve">
+    <value>El piloto indicado no existe</value>
+  </data>
+  <data name="inscr_ya" xml:space="preserve">
+    <value>El piloto ya está inscrito en este evento</value>
+  </data>
+  <data name="insc_coches" xml:space="preserve">
+    <value>Coches asignados correctamente</value>
+  </data>
+  <data name="insc_inscribe" xml:space="preserve">
+    <value>Piloto inscrito correctamente</value>
+  </data>
+  <data name="jueves" xml:space="preserve">
+    <value>Jueves</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Datos de acceso incorrectos</value>
+    <comment>login</comment>
+  </data>
+  <data name="lunes" xml:space="preserve">
+    <value>Lunes</value>
+  </data>
+  <data name="martes" xml:space="preserve">
+    <value>Martes</value>
+  </data>
+  <data name="mensaje1" xml:space="preserve">
+    <value>Inscripción realizada</value>
+  </data>
+  <data name="mensaje2" xml:space="preserve">
+    <value>Ya estás inscrito</value>
+  </data>
+  <data name="mensaje3" xml:space="preserve">
+    <value>Introduce tus datos de acceso primero</value>
+  </data>
+  <data name="mensaje4" xml:space="preserve">
+    <value>El usuario indicado no está registrado o los datos son incorrectos</value>
+  </data>
+  <data name="mes" xml:space="preserve">
+    <value>mes</value>
+  </data>
+  <data name="miercoles" xml:space="preserve">
+    <value>Miercoles</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="noresultados" xml:space="preserve">
+    <value>No se han publicado resultados del campeonato</value>
+  </data>
+  <data name="nummax1" xml:space="preserve">
+    <value>Sin límite de inscripciones</value>
+  </data>
+  <data name="nummax2" xml:space="preserve">
+    <value>Limitado a</value>
+  </data>
+  <data name="nummax3" xml:space="preserve">
+    <value>inscritos</value>
+  </data>
+  <data name="organizador" xml:space="preserve">
+    <value>ORGANIZADOR</value>
+  </data>
+  <data name="paradas" xml:space="preserve">
+    <value>Paradas</value>
+  </data>
+  <data name="pdtepublicar" xml:space="preserve">
+    <value>Pdte. Publicar</value>
+  </data>
+  <data name="pdtevalidar" xml:space="preserve">
+    <value>Pdte. Validar</value>
+  </data>
+  <data name="periodo1" xml:space="preserve">
+    <value>Morning</value>
+  </data>
+  <data name="periodo2" xml:space="preserve">
+    <value>Afternoon</value>
+  </data>
+  <data name="periodo3" xml:space="preserve">
+    <value>Late afternoon/Night</value>
+  </data>
+  <data name="publicado" xml:space="preserve">
+    <value>Publicado</value>
+  </data>
+  <data name="sabado" xml:space="preserve">
+    <value>Sabado</value>
+  </data>
+  <data name="salida1" xml:space="preserve">
+    <value>Salida: En parado</value>
+  </data>
+  <data name="salida2" xml:space="preserve">
+    <value>Salida: Lanzada</value>
+  </data>
+  <data name="segundos" xml:space="preserve">
+    <value>segundos</value>
+  </data>
+  <data name="si" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="stream" xml:space="preserve">
+    <value>Ver aquí</value>
+  </data>
+  <data name="textolocal1" xml:space="preserve">
+    <value>Las carreras se corren los</value>
+  </data>
+  <data name="textolocal2" xml:space="preserve">
+    <value>a las</value>
+  </data>
+  <data name="viernes" xml:space="preserve">
+    <value>Viernes</value>
+  </data>
+  <data name="vueltas" xml:space="preserve">
+    <value>No especificadas</value>
+  </data>
+  <data name="piloto" xml:space="preserve">
+    <value>Piloto</value>
+  </data>
+  <data name="registro_e0" xml:space="preserve">
+    <value>Usuario registrado con éxito</value>
+  </data>
+  <data name="registro_e1" xml:space="preserve">
+    <value>El usuario indicado ya existe</value>
+  </data>
+  <data name="registro_e2" xml:space="preserve">
+    <value>Usuario registrado con éxito</value>
+  </data>
+  <data name="registro_e3" xml:space="preserve">
+    <value>Faltan datos</value>
+  </data>
+  <data name="vercompleta" xml:space="preserve">
+    <value>Ver clasificación completa</value>
+  </data>
+  <data name="cuentaeliminada" xml:space="preserve">
+    <value>Cuenta eliminada correctamente</value>
+  </data>
+</root>

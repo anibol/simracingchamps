@@ -1,0 +1,4 @@
+﻿Lista de cambios en el código necesarios para el correcto funcionamiento:
+
+- En los formularios de registro esta comentado el codigo para usar reCaptcha, tienes que darte de alta y obtener una key para el dominio de destino y descomentar el código
+- Establecer en la configuración del proyecto los datos de la cuenta de correo y servidor SMTP

@@ -1,0 +1,493 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="IRT.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SimRacingChamps.net</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=4.2">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <style>
+        .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+            display: block;
+            max-width: 100%;
+            height: 450px;
+            width: 100%;
+        }
+
+        @media (min-width: 320px) and (max-width: 480px) {
+            .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+                width: 100%;
+            }
+        }
+
+
+
+        /* CSS para la animación y localización de los DIV de cookies */
+
+        @keyframes desaparecer {
+            0% {
+                bottom: 0px;
+            }
+
+            80% {
+                bottom: 0px;
+            }
+
+            100% {
+                bottom: -50px;
+            }
+        }
+
+        @-webkit-keyframes desaparecer /* Safari and Chrome */
+        {
+            0% {
+                bottom: 0px;
+            }
+
+            80% {
+                bottom: 0px;
+            }
+
+            100% {
+                bottom: -50px;
+            }
+        }
+
+        @keyframes aparecer {
+            0% {
+                bottom: -38px;
+            }
+
+            10% {
+                bottom: 0px;
+            }
+
+            90% {
+                bottom: 0px;
+            }
+
+            100% {
+                bottom: -38px;
+            }
+        }
+
+        @-webkit-keyframes aparecer /* Safari and Chrome */
+        {
+            0% {
+                bottom: -38px;
+            }
+
+            10% {
+                bottom: 0px;
+            }
+
+            90% {
+                bottom: 0px;
+            }
+
+            100% {
+                bottom: -38px;
+            }
+        }
+
+        #cookiesms1:target {
+            display: none;
+        }
+
+        .cookiesms {
+            width: 100%;
+            height: 50px;
+            margin: 0 auto;
+            padding-left: 1%;
+            padding-top: 5px;
+            font-size: 1.2em;
+            clear: both;
+            font-weight: strong;
+            color: #333;
+            bottom: 0px;
+            position: fixed;
+            left: 0px;
+            background-color: #FFF;
+            opacity: 0.7;
+            filter: alpha(opacity=70); /* For IE8 and earlier */
+            transition: bottom 1s;
+            -webkit-transition: bottom 1s; /* Safari */
+            -webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+            -moz-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+            box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+            z-index: 999999999;
+        }
+
+            .cookiesms:hover {
+                bottom: 0px;
+            }
+
+            .cookiesms .cookies2 {
+                background-color: #FFF;
+                display: inline;
+                opacity: 0.95;
+                filter: alpha(opacity=95);
+                position: absolute;
+                right: 1%;
+                top: -30px;
+                font-size: 15px;
+                height: 30px;
+                padding-left: 25px;
+                padding-right: 25px;
+                -webkit-border-top-right-radius: 15px;
+                -webkit-border-top-left-radius: 15px;
+                -moz-border-radius-topright: 15px;
+                -moz-border-radius-topleft: 15px;
+                border-top-right-radius: 15px;
+                border-top-left-radius: 15px;
+                -webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+                -moz-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+                box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+            }
+
+        @media (min-width: 320px) and (max-width: 480px) {
+            @keyframes desaparecer {
+                0% {
+                    bottom: 0px;
+                }
+
+                80% {
+                    bottom: 0px;
+                }
+
+                100% {
+                    bottom: -50px;
+                }
+            }
+
+            @-webkit-keyframes desaparecer /* Safari and Chrome */
+            {
+                0% {
+                    bottom: 0px;
+                }
+
+                80% {
+                    bottom: 0px;
+                }
+
+                100% {
+                    bottom: -50px;
+                }
+            }
+
+            @keyframes aparecer {
+                0% {
+                    bottom: -38px;
+                }
+
+                10% {
+                    bottom: 0px;
+                }
+
+                90% {
+                    bottom: 0px;
+                }
+
+                100% {
+                    bottom: -38px;
+                }
+            }
+
+            @-webkit-keyframes aparecer /* Safari and Chrome */
+            {
+                0% {
+                    bottom: -38px;
+                }
+
+                10% {
+                    bottom: 0px;
+                }
+
+                90% {
+                    bottom: 0px;
+                }
+
+                100% {
+                    bottom: -38px;
+                }
+            }
+
+            .cookiesms {
+                width: 100%;
+                height: 50px;
+                margin: 0 auto;
+                padding-left: 1%;
+                padding-top: 5px;
+                font-size: 0.8em;
+                clear: both;
+                font-weight: bold;
+                line-height: 10px;
+                color: #333;
+                bottom: 0px;
+                position: fixed;
+                left: 0px;
+                background-color: #FFF;
+                opacity: 0.7;
+                filter: alpha(opacity=70); /* For IE8 and earlier */
+                transition: bottom 1s;
+                -webkit-transition: bottom 1s; /* Safari */
+                -webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+                -moz-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+                box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+                z-index: 999999999;
+            }
+
+                .cookiesms:hover {
+                    bottom: 0px;
+                }
+
+            .cookiesms .cookies2 {
+                padding-top: 4px;
+                background-color: #FFF;
+                display: inline;
+                opacity: 0.95;
+                filter: alpha(opacity=95);
+                position: absolute;
+                left: 1%;
+                top: -18px;
+                font-size: 15px;
+                height: 20px;
+                padding-left: 25px;
+                padding-right: 25px;
+                -webkit-border-top-right-radius: 15px;
+                -webkit-border-top-left-radius: 15px;
+                -moz-border-radius-topright: 15px;
+                -moz-border-radius-topleft: 15px;
+                border-top-right-radius: 15px;
+                border-top-left-radius: 15px;
+                -webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+                -moz-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+                box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+            }
+        }
+        /* Fin del CSS para cookies */
+    </style>
+    <script src="assets/js/jquery.min.js"></script>
+
+
+    <!-- Color CSS Styles  -->
+    <link  rel="stylesheet" type="text/css" href="assets/css/colors/src.css" media="screen" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <!-- Header Area wrapper Starts -->
+        <header id="header-wrap">
+            <!-- Roof area Starts -->
+            <div id="roof" class="hidden-xs">
+                <div class="container" style="height: 5px">
+                </div>
+            </div>
+            <!-- Roof area End -->
+
+            <!-- Nav Menu Section Start -->
+            <div class="navigation-menu">
+                <nav class="navbar navbar-default navbar-event">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header col-md-3">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="default.aspx">
+                                <img style="width: 188px; padding-top: 16px;" src="Content/img/web/SimRacingChamps2.png" alt="SimRacingChamps.net" /></a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li class="active"><a href="default.aspx">
+                                    <asp:Literal ID="lblMInicio" meta:resourcekey="lblMAInicioResource1" runat="server" Text="Inicio"></asp:Literal></a></li>
+                                <li><a href="about.aspx">
+                                    <asp:Literal ID="lblAcercaDe" meta:resourcekey="lblMAcercaDeResource1" runat="server" Text="Acerca de"></asp:Literal></a></li>
+                                <li><a href="faq.aspx">
+                                    <asp:Literal ID="Literal4" runat="server" Text="F.A.Q." meta:resourcekey="Literal4Resource1"></asp:Literal></a></li>
+                                <li><a href="contact.aspx">
+                                    <asp:Literal ID="lblMContacto" meta:resourcekey="lblMContactoResource1" runat="server" Text="Contacto"></asp:Literal></a></li>
+
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-user"></i>
+                                    <asp:Literal ID="lblMRegistrate" runat="server" meta:resourcekey="lblMRegistrateResource1" Text="Regístrate"></asp:Literal>
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="active" href="register.aspx">
+                                            <asp:Literal ID="lblMOrganizador" runat="server" meta:resourcekey="lblMOrganizadorResource1" Text="Organizador"></asp:Literal></a></li>
+                                        <li><a href="register_driver.aspx?j=1">
+                                            <asp:Literal ID="Literal3" runat="server" Text="Jefe de Equipo" meta:resourcekey="Literal3Resource1"></asp:Literal></a></li>
+                                        <li><a href="register_driver.aspx">
+                                            <asp:Literal ID="lblMPiloto" runat="server" meta:resourcekey="lblMPilotoResource1" Text="Piloto"></asp:Literal></a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="login.aspx"><i class="icon-lock"></i>
+                                    <asp:Literal ID="lblMAcceder" runat="server" meta:resourcekey="lblMAccederResource1" Text="Acceder"></asp:Literal></a></li>
+                            </ul>
+                        </div>
+                        <!-- /navbar-collapse -->
+                    </div>
+                    <!-- /container -->
+
+                    <!-- Mobile Menu Start -->
+                    <ul class="wpb-mobile-menu">
+                        <li class="active"><a href="default.aspx">
+                            <asp:Literal ID="lblMInicioMob" meta:resourcekey="lblMAInicioResource1" runat="server" Text="Acerca de"></asp:Literal></a></li>
+                        <li><a href="about.aspx">
+                            <asp:Literal ID="lblMAcercaDeMob" runat="server" meta:resourcekey="lblMAcercaDeResource1" Text="Acerca de"></asp:Literal></a></li>
+                        <li><a href="contact.aspx">
+                            <asp:Literal ID="lblMContactoMob" runat="server" meta:resourcekey="lblMContactoResource1" Text="Contacto"></asp:Literal></a></li>
+                        <li><a href="faq.aspx">
+                            <asp:Literal ID="Literal5" runat="server" Text="F.A.Q." meta:resourcekey="Literal5Resource1"></asp:Literal></a></li>
+                        <li><a href="help.aspx">
+                            <asp:Literal ID="Literal2" runat="server" meta:resourcekey="ayuda" Text="Ayuda"></asp:Literal></a></li>
+                        <li><a href="login.aspx">
+                            <asp:Literal ID="Literal1" runat="server" meta:resourcekey="lblMAccederResource1" Text="Acceder"></asp:Literal></a></li>
+                        <li><a href="register_driver.aspx">
+                            <asp:Literal ID="Literal6" runat="server" Text="Registro piloto" meta:resourcekey="Literal6Resource1"></asp:Literal></a></li>
+                        <li><a href="register_driver.aspx?j=1">
+                            <asp:Literal ID="Literal8" runat="server" Text="Registro jefe equipo" meta:resourcekey="Literal8Resource1"></asp:Literal></a></li>
+                        <li><a href="register.aspx">
+                            <asp:Literal ID="Literal7" runat="server" Text="Registro organizador" meta:resourcekey="Literal7Resource1"></asp:Literal></a></li>
+                    </ul>
+                    <!-- Mobile Menu End -->
+
+                </nav>
+            </div>
+            <!-- Nav Menu Section End -->
+
+        </header>
+        <!-- Header Area wrapper End -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <footer class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <h3>
+                            <img style="width: 188px" src="Content/img/web/SimRacingChamps2.png" alt=""></h3>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <asp:Literal ID="lblMTextoPie" runat="server" meta:resourcekey="lblMTextoPieResource1" Text="
+                            &lt;i class=&quot;icon icon-social-twitter&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://twitter.com/simracingchamps&quot;&gt;Síguenos en Twitter&lt;/a&gt;
+                        "></asp:Literal>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <section id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="copyright-text text-center">
+                            &copy;2017 <a href="http://simracingchamps.net/" style="color: white;">SimRacingChamps.net</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="cookiesms" id="cookie1">
+            Esta web utiliza cookies, puedes ver nuestra  <a href="cookies.aspx">la política de cookies, aquí</a>
+            Si continuas navegando estás aceptándola
+            <button onclick="controlcookies()">Aceptar</button>
+            <div class="cookies2" onmouseover="document.getElementById('cookie1').style.bottom = '0px';">Política de cookies + </div>
+        </div>
+        <script type="text/javascript">
+            if (localStorage.controlcookie > 0) {
+                document.getElementById('cookie1').style.bottom = '-50px';
+            }
+        </script>
+
+        <a href="#" class="back-to-top">
+            <i class="icon-arrow-up"></i>
+        </a>
+        <div class="bottom"><a href="#" class="settings"></a></div>
+
+
+
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/jquery.countdown.min.js"></script>
+
+        <script src="assets/js/smooth-scroll.js"></script>
+
+        <script src="assets/js/wow.js"></script>
+
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+        <script src="assets/js/jquery.slicknav.js"></script>
+
+        <script src="assets/js/nivo-lightbox.js"></script>
+
+        <script src="assets/js/form-validator.min.js"></script>
+        <script src="assets/js/contact-form-script.js"></script>
+
+
+        <script src="assets/js/main.js"></script>
+
+        <script type="text/javascript" src="assets/js/jquery.mapit.min.js"></script>
+        <script src="assets/js/initializers.js"></script>
+        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+        <script>
+
+            function controlcookies() {
+                // si variable no existe se crea (al clicar en Aceptar)
+                localStorage.controlcookie = (localStorage.controlcookie || 0);
+
+                localStorage.controlcookie++; // incrementamos cuenta de la cookie
+                cookie1.style.display = 'none'; // Esconde la política de cookies
+            };
+
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-1592003-5', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    </form>
+</body>
+</html>
